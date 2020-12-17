@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="7" name="Suite">
+  <test thread-count="7" name="Test1">
+    <classes>
+      <class name="com.dunn.taylor.sripts.LoginLogout"/>
+      <class name="com.dunn.taylor.sripts.Registration"/>
+      <class name="com.dunn.taylor.sripts.SubApplication"/>
+    </classes>
+  </test> <!-- Test1 -->
+</suite> <!-- Suite -->
